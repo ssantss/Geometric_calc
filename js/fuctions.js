@@ -7,6 +7,22 @@ function square_area (side){
     return side * side; /* Se calcula el area de un cuadraro */
 }
 
+function calculasCuadrado(){
+
+    //Perimetro
+    const input = document.getElementById("InputCuadrado");
+    const value = input.value;
+    const perimetro = "PERIMETRO CUADRADO  " + square_perimeter(value) + "cm";
+
+    document.getElementById('resultado').innerHTML = perimetro;
+
+    //Area
+    const value1 = value 
+    const area = "AREA CUADRADO  " + square_area(value1) + "cm²";
+    document.getElementById('resultado1').innerHTML = area;
+}
+
+
 // Triangle
 const pi = Math.PI;
 
