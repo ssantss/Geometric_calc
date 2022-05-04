@@ -30,3 +30,4 @@ function circle_perimeter (radio){
 function circle_area(radio){
     return Math.round((radio * radio) * pi); /* Area circulo */
 }
+
