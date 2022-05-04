@@ -33,6 +33,37 @@ function triangle_perimeter (side0, side1, base){
 function triangle_area(height ,base){
     return (base * height) / 2; /* Area triangulo */
 }
+
+function calculosTriangulo(){
+    const input = document.getElementById("InputTriangulo_ladoa");
+    const lado_a =  parseInt(input.value);
+    
+
+    const input2 = document.getElementById("InputTriangulo_ladob");
+    const lado_b = parseInt(input2.value);
+
+    const input3 = document.getElementById("InputTriangulo_base");
+    const base1 = parseInt(input3.value);
+
+    const input4 = document.getElementById("InputTriangulo_altura");
+    const altura = parseInt(input4.value);
+
+    perimeter = "PERIMETRO TRIANGULO " + triangle_perimeter(lado_a,lado_b,base1) + " cm."
+    document.getElementById('resultado_triangle').innerHTML = perimeter;
+
+    area = "AREA TRIANGULO " + triangle_area(altura,base1) + " cm²."
+    document.getElementById('resultado_triangle1').innerHTML = area;
+
+}
+
+
+
+
+
+
+
+
+
 // Circle
 
 

@@ -66,6 +66,39 @@
             </div>  
         </div>
 
+        <div class="card">
+            <div class="card-header">
+              <img src="./resources/trianglel.svg" alt="triangulo" />
+              <div class="resultados">
+                <div id="resultado_triangle"></div>          
+                <div id="resultado_triangle1"></div>
+            </div>
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Triangulo</span>
+              <h4 class="ti">
+                ¡Vamos a calcular un Triángulo!
+              </h4>
+              <label for="InputTriangulo_ladoa" class="parrafo">
+                Ingresa las medidas del triángulo y presiona el boton “calcular”.
+              </label>
+              <!-- LADO 1 -->
+                <label id="p" for="InputTriangulo_ladoa" >Ingrese el lado A del triangulo</label>
+                <input id="InputTriangulo_ladoa" class="input" type="number" placeholder="INGRESE LADO A">
+              <!-- LADO 2 -->
+                <label id="p" for="InputTriangulo_ladob" >Ingrese el lado B del triangulo</label>
+                <input id="InputTriangulo_ladob" class="input" type="number" placeholder="INGRESE LADO B">
+                <!-- BASE -->
+                <label id="p" for="InputTriangulo_base" >Ingrese la base del triangulo</label>
+                <input id="InputTriangulo_base" class="input" type="number" placeholder="INGRESE LA BASE">
+                <!-- ALTURA -->
+                <label id="p" for="InputTriangulo_altura" >Ingrese la altura del triangulo</label>
+                <input id="InputTriangulo_altura" class="input" type="number" placeholder="INGRESE LA ALTURA">
+
+                <button class="button" onclick="calculosTriangulo()">Calcular</button>
+            </div>  
+        </div>
+
 
 
         
