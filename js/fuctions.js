@@ -98,3 +98,22 @@ function calculosCirculo(){
     
 }
 
+
+//Funcion enter
+function enter_cuadrado (ele) {
+    if(event.key === 'Enter') {
+        calculasCuadrado();        
+    }
+}
+
+function enter_circulo (ele) {
+    if(event.key === 'Enter') {
+        calculosCirculo();        
+    }
+}
+
+function enter_triangulo (ele) {
+    if(event.key === 'Enter') {
+        calculosTriangulo();        
+    }
+}

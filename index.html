@@ -40,7 +40,7 @@
                 Ingresa la medida del el lado del cuadrado y presiona el boton “calcular” para obtener el area y el perimetro.
               </label>
                 <label id="p" for="InputCuadrado" >Ingrese la medida del cuadrado</label>
-                <input id="InputCuadrado" class="input" type="number" placeholder="LADO">
+                <input id="InputCuadrado" class="input" type="number" placeholder="LADO"  onkeydown="enter_cuadrado(this)">
                 <button class="button" onclick="calculasCuadrado()">Calcular</button>
             </div>  
         </div>
@@ -63,7 +63,7 @@
                 Ingresa el radio del circulo y presiona el boton “calcular” para obtener el area, la circunferencia y el diametro.
               </label>
                 <label id="p" for="InputCirculo" >Ingrese el radio del circulo</label>
-                <input id="InputCirculo" class="input" type="number" placeholder="RADIO">
+                <input id="InputCirculo" class="input" type="number" placeholder="RADIO" onkeydown="enter_circulo(this)">
                 <button class="button" onclick="calculosCirculo()">Calcular</button>
             </div>  
         </div>
@@ -95,7 +95,7 @@
                 <input id="InputTriangulo_base" class="input" type="number" placeholder="INGRESE LA BASE">
                 <!-- ALTURA -->
                 <label id="p" for="InputTriangulo_altura" >Ingrese la altura del triangulo</label>
-                <input id="InputTriangulo_altura" class="input" type="number" placeholder="INGRESE LA ALTURA">
+                <input id="InputTriangulo_altura" class="input" type="number" placeholder="INGRESE LA ALTURA"  onkeydown="enter_triangulo(this)" >
 
                 <button class="button" onclick="calculosTriangulo()">Calcular</button>
             </div>  
@@ -104,7 +104,7 @@
     </main>
 
     <footer class="footer">
-      <p>Desarrollado con 💚 por Santaigo para Platzi.</p>
+      <p>Desarrollado con 💚 por <a href="https://twitter.com/santiiiag_o" target="_blank">Santaigo</a> para Platzi.</p>
   </footer>
 
     <script src="./js/fuctions.js"></script>
