@@ -12,13 +12,13 @@ function calculasCuadrado(){
     //Perimetro
     const input = document.getElementById("InputCuadrado");
     const value = input.value;
-    const perimetro = "PERIMETRO CUADRADO  " + square_perimeter(value) + "cm";
+    const perimetro = "PERIMETRO CUADRADO  " + square_perimeter(value) + " cm.";
 
     document.getElementById('resultado').innerHTML = perimetro;
 
     //Area
     const value1 = value 
-    const area = "AREA CUADRADO  " + square_area(value1) + "cm²";
+    const area = "AREA CUADRADO  " + square_area(value1) + " cm².";
     document.getElementById('resultado1').innerHTML = area;
 }
 
@@ -35,6 +35,7 @@ function triangle_area(height ,base){
 }
 // Circle
 
+
 function circle_diameter(radio){
     return radio * 2; /* Diametro Circulo */
 }
@@ -45,5 +46,22 @@ function circle_perimeter (radio){
 }
 function circle_area(radio){
     return Math.round((radio * radio) * pi); /* Area circulo */
+}
+
+function calculosCirculo(){
+    const input = document.getElementById("InputCirculo");
+    const value = input.value;
+    const value1 = value;
+    const value2 = value;
+    const diameter = "DIAMETRO CIRCULO " + circle_diameter(value) + " cm."
+    document.getElementById('resultado_circle0').innerHTML = diameter;
+    
+    const perimeter = "PERIMETRO CIRCULO " + circle_perimeter(value1) + " cm."
+    document.getElementById('resultado_circle1').innerHTML = perimeter;
+
+    const area = "AREA CIRCULO " + circle_area(value2) + " cm²."
+    document.getElementById('resultado_circle2').innerHTML = area;
+
+    
 }
 

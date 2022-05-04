@@ -24,6 +24,10 @@
         <div class="card">
             <div class="card-header">
               <img src="./resources/square.svg" alt="cuadrado" />
+              <div class="resultados">
+                <div id="resultado"></div>          
+                <div id="resultado1"></div>
+            </div>
             </div>
             <div class="card-body">
               <span class="tag tag-teal">Cuadrado</span>
@@ -34,15 +38,33 @@
                 Ingresa la medida del el lado del cuadrado y presiona el boton “calcular” para obtener el area y el perimetro.
               </label>
                 <label id="p" for="InputCuadrado" >Ingrese la medida del cuadrado</label>
-                <input id="InputCuadrado" class="input" type="number" placeholder="MEDIDA">
+                <input id="InputCuadrado" class="input" type="number" placeholder="LADO">
                 <button class="button" onclick="calculasCuadrado()">Calcular</button>
-                
-                <div class="resultados">
-                    <div id="resultado"></div>
-                    
-                    <div id="resultado1"></div>
-                </div>
+            </div>  
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+              <img src="./resources/oval.svg" alt="circulo" />
+              <div class="resultados">
+                <div id="resultado_circle0"></div>          
+                <div id="resultado_circle1"></div>
+                <div id="resultado_circle2"></div>
             </div>
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Circulo</span>
+              <h4 class="ti">
+                ¡Vamos a calcular un Circulo!
+              </h4>
+              <label for="InputCirculo" class="parrafo">
+                Ingresa el radio del circulo y presiona el boton “calcular” para obtener el area, la circunferencia y el diametro.
+              </label>
+                <label id="p" for="InputCirculo" >Ingrese el radio del circulo</label>
+                <input id="InputCirculo" class="input" type="number" placeholder="RADIO">
+                <button class="button" onclick="calculosCirculo()">Calcular</button>
+            </div>  
+        </div>
 
 
 
