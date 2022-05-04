@@ -15,9 +15,11 @@
     background-color: white;
     justify-content: center;
     align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    
 }
  .titulo{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif!;
     font-size: 30px;
  }
 
@@ -32,7 +34,7 @@
     font-family: "Roboto", sans-serif;
     width: auto;
     margin: 0;
-    align-items: center
+    align-items: flex-start;
 
 }
 
@@ -85,18 +87,10 @@
 .tag-teal {
   background-color: black;
 }
-.tag-purple {
-  background-color: #5e76bf;
-}
-.tag-pink {
-  background-color: #cd5b9f;
-}
 
 .parrafo {
    font-size: 15px;
     text-align: center;
-  
-
 }
 
 .ti { /* Este es el titulo   */
@@ -108,7 +102,8 @@
 
 #p{
     margin-top: 10px;
-    font-size: 11px;
+    font-size: 12px;
+   
 }
 
 .input {
@@ -157,14 +152,24 @@
    }
 
 .resultados{
-
     text-align:center;
     font-size: 15px;
     color: #2EE59D;
     padding-bottom: 10px; 
+}
 
-
-
-     
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
 
 }
