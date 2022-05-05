@@ -13,6 +13,7 @@ function calculasCuadrado(){
     const input = document.getElementById("InputCuadrado");
     const value = input.value;
     const perimetro = "PERIMETRO CUADRADO  " + square_perimeter(value) + " cm.";
+    
 
     document.getElementById('resultado').innerHTML = perimetro;
 
